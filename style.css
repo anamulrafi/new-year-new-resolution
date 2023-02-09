@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .banner{
-    width: 100%;
+    width: 60%;
     position: relative;
 }
 
@@ -34,6 +34,13 @@ body{
 .half-width img{
     width:50%;
 }
-.half-width p{
-    font-weight: 400;
+.icon-container {
+    display: flex;
+
+  }
+
+.icon-container > div {
+    margin: 40px 120px 80px 100px;
+    padding: 20px;
+   
 }
