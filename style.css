@@ -2,6 +2,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* banner part css */
 .banner{
     width: 60%;
     position: relative;
@@ -24,6 +25,7 @@ body{
     margin-top: 30px;
     
 }
+/* section2 css */
 .half-width{
     margin-top: 40px;
     width: 50%;
@@ -34,6 +36,17 @@ body{
 .half-width img{
     width:50%;
 }
+
+#failure-list{
+    margin-top: -490px;
+    margin-left: 763px;
+    width: 50%;
+    padding-left: 10%;
+    text-align: justify;
+    border-bottom: 20px;
+    margin-bottom: 400px;
+}
+/* my plan part css */
 .icon-container {
     display: flex;
 
@@ -43,4 +56,77 @@ body{
     margin: 40px 120px 80px 100px;
     padding: 20px;
    
+}
+/* bonus part css */
+.container{
+
+    background: url(images/watch.png);
+    color: white;
+    position: relative;
+    align-items: left;
+    justify-content: left;
+    margin: 0px 300px 100px 300px;
+    display: flex;
+    background-size: 100%;
+    padding-left:100px ;
+    padding-top: 40px;
+    height:25vh;
+
+   
+}
+
+.color-gradient{
+    background: linear-gradient(to top right, blue, red);
+    height: 29vh;
+    opacity: 0.3;
+    position: absolute;
+    width: 1304px;
+    margin-top: -382px;
+    margin-left: 300px;
+}
+
+.call-now{
+    margin-top: 100px;
+    margin-left: -270px ;
+    width: 80px;
+    height: 30px;
+    background-color: #FFFFFF;
+    color: rgb(81, 81, 195);
+    border: 0;
+    border-radius:5px;
+}
+/* footer part css */
+
+.ftdiv1{
+    padding: 1px 1px;
+    margin-right: 130px;
+    margin-left: 100px;
+}
+
+.ft-div-flex{
+    display: flex;
+}
+input{
+    border: 2px solid white;
+    padding-bottom: 5px;
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+}
+footer{
+    background: black;
+    color: #FFFFFF;
+    margin-bottom: 0px;
+    
+    
+}
+.sub-btn{
+    color: #FFFFFF;
+    background-color: black;
+    border: 2px solid white;
+    height: 50px;
+    border-radius: 10%;
+    margin-left: 8px;
+    margin-top: 20px;
+    width: 90px;
 }
